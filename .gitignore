@@ -1,4 +1,4 @@
-.classpath
-.project
-target/
-.settings/
+micro-provider/.classpath
+micro-provider/.project
+micro-provider/target/
+micro-provider/.settings/
