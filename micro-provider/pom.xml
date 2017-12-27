@@ -38,6 +38,14 @@
 			<artifactId>jersey-container-servlet</artifactId>
 			<version>2.22.2</version>
 		</dependency>
+		
+		<!-- The jersey jackson dependency is included so that the JSON to object
+		conversion happens -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>2.22.2</version>
+		</dependency>
 
 		<dependency>
 			<groupId>junit</groupId>
