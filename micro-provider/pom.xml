@@ -38,6 +38,21 @@
 			<artifactId>jersey-container-servlet</artifactId>
 			<version>2.22.2</version>
 		</dependency>
+	
+		<!-- For Object to JSON and JSON to object mapping -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>2.26</version>
+		</dependency>
+
+		<!-- MongoDB Jars -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>junit</groupId>
